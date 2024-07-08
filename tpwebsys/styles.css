@@ -1,0 +1,231 @@
+  /*CSS FOR LOGIN PAGE*/
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .container-login {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+  }
+
+  .modalheader {
+    background-color: #94d2bd;
+    position: relative;
+    padding: 1px;
+  }
+  
+.modalheader p{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 3%;
+}
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 30%; 
+  }
+  
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+
+  /*These designs is for the slideshow gallery*/
+
+.gallery{
+  width: 100%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 280px;
+  left: 947px;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+  }
+  
+  .wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 16s infinite;
+  }
+  
+  @keyframes slide{
+    0%{
+      transform: translateX(0);
+  }
+  
+    25%{
+      transform: translateX(0);
+  }
+  
+    30%{
+      transform: translateX(-100%);
+  }
+  
+    50%{
+      transform: translateX(-100%);
+  }
+  
+    55%{
+      transform: translateX(-200%);
+  }
+  
+    75%{
+      transform: translateX(-200%);
+  }
+  
+    80%{
+      transform: translateX(-300%);
+  }
+  
+    100%{
+      transform: translateX(-300%);
+  }
+  }
+  
+  img{
+  width: 100%;
+  }
+
+
+  /*CSS FOR HOME PAGE*/
+
+.bodyhome{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fbc2eb 0%, #f094c6 50%, #94d2bd 100%);
+    position: center;
+  }
+  header {
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/57/01/seamless-background-from-images-sport-shoes-vector-20245701.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border: 5px solid black;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .container-home {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EEEEEE;
+  }
+  .banner {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 90px;
+  }
+  td {
+    width: 50%;
+    padding: 10px;
+    vertical-align: top;
+  }
+  .shoe-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  img {
+    width: 50%;
+  }
+  .price {
+    font-weight: bold;
+  }
+  .brand-and-price {
+    margin-bottom: 5px;
+  }
+  #brand-select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
